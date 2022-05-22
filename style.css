@@ -1,15 +1,16 @@
 
 body {
-    border-top: 5px solid darkgoldenrod;
+    border-top: 8px solid darkgoldenrod;
     margin-bottom: 60px;
     font-family: 'Baloo Bhai 2', cursive;
     font-family: 'Changa', sans-serif;
     font-family: 'Heebo', sans-serif;
     font-weight: 200;
     
+    
 }
 
-.navbar-nav{
+header .navbar-nav{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -18,25 +19,34 @@ body {
     background: #730902;
     color: white!important;
     border-radius: 1px;
-    box-shadow: 0px 0px 5px 0px#000;
+    /* box-shadow: 0px 0px 5px 0px#000; */
     font-weight: 200;
     font-family: 'Heebo', sans-serif;
 }
 
-.navbar-nav li{
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    color:black;
+
+header .nav-link{
+    color: white!important;
     font-size: 20px;
     font-weight: 200;
     font-family: 'Heebo', sans-serif;
+    background-color: #730902;
+}
+header .nav-item{
+    color: white!important;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Heebo', sans-serif;
+    background-color: #730902;
 }
 
 #overflow{
-    background-color: grey;
+    display: inline-block;
+    background-color:blanchedalmond;
     border:2px solid black;
-    height: 650px;
+    height: 450px;
     width: 100%;
     overflow:auto;
+    font-weight: 200;
+    font-family: 'Heebo', sans-serif;
 }
