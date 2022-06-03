@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>IAS Department page</title>
+    <title>Course Details | DACE | Guru Ghasidas Vishwavidyalaya</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Changa:wght@500&family=Heebo:wght@500&display=swap"
@@ -19,6 +19,10 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <!-- Code to add logo on title bar -->
+    <link rel="shortcut icon" href="images/ggvlogofavicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/ggvlogofavicon.ico" type="image/x-icon">
+
   </head>
 
   <body>
@@ -109,9 +113,19 @@
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#">Contact</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        <!-- About Us -->
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="aboutggv.html">About GGV</a></li>
+                            <li><a class="dropdown-item" href="aboutdace.html">About DACE</a></li>
+                            <li><a class="dropdown-item" href="images/MOU  02 04 2022.pdf" target="_blank">MOU</a></li>
+                          </ul>
                         </li>
+                         <!-- About Us Closed -->
                       </ul>
                     </div>
                   </div>
@@ -127,8 +141,8 @@
       </div>
     </header>
 
-    <div class="container">
-      <div class="inner_page_content content_wrapper">
+    <div class="container-fluid">
+      <div class="inner_page_content content_wrapper mt-10 pt-10px">
         <p>
           <span style="text-decoration: underline"
             ><strong>UPSC CSE 2022 Complete Syllabus</strong></span

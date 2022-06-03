@@ -153,3 +153,11 @@ thead {
     font-weight: 200;
     font-family: 'Heebo', sans-serif;
 }
+
+.vl {
+    border-left: 6px solid rgb(4, 89, 4);
+    height: 500px;
+    margin-left: 50px;
+    top: 0;
+  }
+
