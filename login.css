@@ -102,26 +102,14 @@ padding: 2px;
 }
  .inner_sign{
     background-color: white;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     color: #021b1f;
-    border: 3px solid #021b1f;
-    margin:5px 25px 25px 25px;
-    padding: 3px;
+    /* border: 3px solid #021b1f; */
+    /* padding: 3px; */
 }
 
-.sign_up{
-    display: flex;
-    height: 25rem;
-    width: 20rem;
-    background-color: rgb(214, 209, 202);
-    color: #021b1f;
-    border-radius: 5px;
-    border: 3px solid #021b1f;
-}
-.sign_up.table{
-    flex-direction: column;
 
-}
+
 .footer_area {
     background-color: #072e33;
     color: #fff;
