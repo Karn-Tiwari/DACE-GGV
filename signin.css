@@ -1,14 +1,17 @@
 body {
+    margin-bottom: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
     font-family: 'Baloo Bhai 2', cursive;
     font-family: 'Changa', sans-serif;
     font-family: 'Heebo', sans-serif;
     font-weight: 200;
 }
-.signInButton {
+/* .signInButton {
     top: 50%;
     right: 10%;
     transform: translate(0, -50%);
-  }
+  } */
   
 .row .border{
     margin: 0%;
@@ -21,7 +24,15 @@ body {
     text-align: center;
     color: darkgoldenrod;
 }
-.topnav a{
+header{
+    background-color: rgb(214, 209, 202);
+ 
+    width: 100%;
+    /* position: sticky; */
+    top: 0;
+
+}
+.row .border a{
     margin: 0px;
     display: flex;
     color: black;
@@ -41,29 +52,68 @@ body {
 .topnav .container-fluid{
     width: 100%;
     background-color: rgb(214, 209, 202);
-    box-shadow: 0px 0px 2px #03454f;
+    /* box-shadow: 0px 0px 2px #03454f; */
 
 }
 
-.topnav .container .breadcrumb{
+.row .container .breadcrumb{
     background-color: rgb(128, 206, 209);
     color: #084e58;
     box-shadow: 5px;
-    width: 100%;
     margin-top: 0px;
-    padding: 0px 30px 0px 30px;
+
+    /* padding: 0px 30px 0px 30px; */
 
 }
 
 .breadcrumb li{
     display: inline-block;
     line-height:40px;
+    text-align: center;
 }
 .mid_header {
 padding: 2px;
     color: black;
 }
 
+#welcome{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-size: bold;
+    color: darkgoldenrod;
+    font-weight: 200;
+    background-color: #084e58;
+ 
+}
+#tips{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 35px;
+    line-height:40px;
+
+}
+.sign_in{
+    background-color: rgb(214, 209, 202);
+    border-radius: 5px;
+    color: #021b1f;
+    border: 3px solid #021b1f;
+    padding: 3px;
+}
+ .inner_sign{
+    background-color: white;
+    border-radius: 5px;
+    color: #021b1f;
+    border: 3px solid #021b1f;
+    margin:5px 25px 25px 25px;
+    padding: 3px;
+}
+.sign_up{
+    background-color: rgb(214, 209, 202);
+    color: #021b1f;
+    border-radius: 5px;
+    border: 3px solid #021b1f;
+}
 .footer_area {
     background-color: #072e33;
     color: #fff;
