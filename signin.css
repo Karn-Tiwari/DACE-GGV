@@ -1,5 +1,4 @@
 body {
-    margin-bottom: 60px;
     font-family: 'Baloo Bhai 2', cursive;
     font-family: 'Changa', sans-serif;
     font-family: 'Heebo', sans-serif;
@@ -58,4 +57,18 @@ body {
 .mid_header {
 padding: 2px;
     color: black;
+}
+
+.footer_area {
+    background-color: #072e33;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Heebo', sans-serif;
+}
+
+.copy_area {
+    background-color: #0d0d0d;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Heebo', sans-serif;
 }
