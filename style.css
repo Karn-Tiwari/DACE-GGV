@@ -34,7 +34,7 @@ header .container-fluid {
 
     font-family: 'Heebo', sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 
 }
 .navbar .nav-link:hover {
@@ -87,7 +87,7 @@ thead {
 
 .head-display-1 {
     font-weight: 700;
-    margin: 15px 0;
+    /* margin: 15px 0; */
 
 }
 
@@ -155,7 +155,7 @@ thead {
 .vl {
     border-left: 6px solid rgb(4, 89, 4);
     height: 500px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     top: 0;
   }
 
