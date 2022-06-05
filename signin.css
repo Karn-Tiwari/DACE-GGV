@@ -9,11 +9,6 @@ body {
     font-family: 'Heebo', sans-serif;
     font-weight: 200;
 }
-/* .signInButton {
-    top: 50%;
-    right: 10%;
-    transform: translate(0, -50%);
-  } */
   
 .row .border{
     margin: 0px;
@@ -67,24 +62,16 @@ header{
     padding: 0px 30px 0px 30px;
 
 } */
-/* .velcum{
+.velcum{
     background-color: rgb(128, 206, 209);
     color: #084e58;
     box-shadow: 5px;
     margin-top: 0px;
     padding: 0px 30px 0px 30px;
-    display: flex;
-    flex-direction: column;
-} */
-/* .velcum .left{
-    flex-direction: row;
-    float: left;
-
+    /* display: flex; */
+    /* flex-direction: column; */
 }
-.velcum .right{
-    flex-direction: row;
-    float: right;
-} */
+
 /* .breadcrumb li{
     display: inline-block;
     line-height:40px;
@@ -93,10 +80,11 @@ header{
 
 /* .left{
 float: left;
-}
+} */
 .right{
 float: right;
-} */
+background-color: #072e33;
+}
 .mid_header {
 padding: 2px;
     color: black;
