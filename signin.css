@@ -9,11 +9,11 @@ body {
     font-family: 'Heebo', sans-serif;
     font-weight: 200;
 }
-.signInButton {
+/* .signInButton {
     top: 50%;
     right: 10%;
     transform: translate(0, -50%);
-  }
+  } */
   
 .row .border{
     margin: 0px;
@@ -58,21 +58,45 @@ header{
 
 }
 
-.row .container .breadcrumb{
+/* .row .container .breadcrumb{
     background-color: rgb(128, 206, 209);
     color: #084e58;
     box-shadow: 5px;
     margin-top: 0px;
 
-    /* padding: 0px 30px 0px 30px; */
+    padding: 0px 30px 0px 30px;
+
+} */
+/* .velcum{
+    background-color: rgb(128, 206, 209);
+    color: #084e58;
+    box-shadow: 5px;
+    margin-top: 0px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+} */
+/* .velcum .left{
+    flex-direction: row;
+    float: left;
 
 }
-
-.breadcrumb li{
+.velcum .right{
+    flex-direction: row;
+    float: right;
+} */
+/* .breadcrumb li{
     display: inline-block;
     line-height:40px;
-    text-align: center;
+    text-align: center; */
+    
+
+/* .left{
+float: left;
 }
+.right{
+float: right;
+} */
 .mid_header {
 padding: 2px;
     color: black;
@@ -137,3 +161,7 @@ padding: 2px;
     font-weight: 200;
     font-family: 'Heebo', sans-serif;
 }
+
+/* .right{
+    float: right;
+} */
