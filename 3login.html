@@ -7,7 +7,7 @@
     <title>Log In</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="3login.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Changa:wght@500&family=Heebo:wght@500&display=swap"
         rel="stylesheet">
@@ -16,36 +16,37 @@
 
             padding: 0px;
             margin: 0px;
-            background-image: url(images/kisan.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-family: 'Changa', sans-serif;
+            font-family: 'Heebo', sans-serif;
+            font-weight: 200;
         }
 
-        .table {
-            background-color: rgb(236, 236, 236);
-            border: 5px solid black;
-            border-radius: 10px;
-        }
+       
     </style>
 </head>
 
 <body>
     <!--Wrapper div-->
-    <div class="container-fluid">
-        <!--Top nav-->
-        <header class="row border">
-            <div class="col-12 text-center">
-                <div class="border" style="font-size:25px ;">COACHING FOR CIVIL SERVICES (DACE GGV)</div>
+    <!-- <div class="container-fluid"> -->
+    <!--Top nav-->
+    <!-- <header class="row border"> -->
+    <div class="col-12 text-center">
+        <div class="border align-items-center text-wrap"
+            style="font-weight:bold;font-size: 1.7em; line-height:45px ; background-color: #084e58; color:darkgoldenrod ;">
+            COACHING FOR CIVIL SERVICES (UPSC)</div>
 
-            </div>
-            <div class="row">
+    </div>
+    <header>
+        <div class="container-fluid mt-0">
+            <div class="row justify-content-evenly">
                 <div class="col-sm-2 col-s-12 d-flex align-items-center justify-content-center">
-                    <div class="logo mt-3 ">
+                    <div class="logo mt-3">
                         <img src="images/logo.png" style="width:150px;height:150px;margin-bottom:10px;" alt="">
                     </div>
                 </div>
                 <div class="col-sm-8 col-xs-12 text-center">
-                    <div class="text-center mt-3">
+                    <div class="mid_header mt-3">
                         <h2>Dr. Ambedkar Centre of Excellence</h2>
                         <h2>GGV Bilaspur Chhattisgarh</h2>
                         <h2>(DACE - GGV)</h2>
@@ -59,159 +60,140 @@
                     </div>
                 </div>
             </div>
-        </header>
-
-        <!--End of top nav-->
-        <!--Sign in form-->
-        <!-- <nav class="navbar navbar-expand-lg bg-light">
-              <div class="container-md">
-                <a class="navbar-brand" href="#">Navbar</a>
-              </div>
-            </nav> --> 
-        <div class="row">
-            <div class="container justify-content-evenly">
-                <!-- <ul class="breadcrumb breadcrumb-mainEx"> -->
-                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="signIn.html">Home</a></li> 
-                            <li class="breadcrumb-item active" aria-current="page">Registration</li>
-                        </ol>
-                    </nav>
-                <!-- </ul> -->
-            </div>
         </div>
+    </header>
+    <!--End of top nav-->
+    <!--Sign in form-->
+    <!-- <nav class="navbar navbar-expand-lg bg-light">
+                  <div class="container-md">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                  </div>
+                </nav> -->
 
-        <div class="container-fluid box">
-            <div class="row justify-content-evenly">
-                <div class="col-sm-8 col-xs-12 d-flex justify-content-center align-items-center">
-                    <div class="sign_in " style="width: 100%;">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h2>REGISTRATION</h2>
-                                <!-- <p>All the <span class="text-danger">*</span> marked fields are must</p> -->
-                            </div>
+    <div class="container-fluid velcum mb-5">
+        <div class="row ">
+            <div class="d-flex">
+                <div class="p-2 flex-grow-1 text-wrap"><a href="2signIn.html" style="font-weight: 400;"></a>
+                    <h4>Home</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid box mb-5">
+        <div class="row justify-content-evenly">
+            <div class="col-sm-8 col-xs-12 d-flex justify-content-center align-items-center">
+                <div class="sign_in" style="width: 100%;">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 id="reg">REGISTRATION</h2>
+                            <!-- <p>All the <span class="text-danger">*</span> marked fields are must</p> -->
                         </div>
+                    </div>
 
+                    <div class="col-12 col-md-8 padding-left: 2rem;">
                         <div class="col-12 col-md-8">
+                            <label for="Email-ID">Email-ID<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Email-ID">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="Password">Password<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="Confirm Password">Confirm Password<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Confirm Password">
+                        </div>
+                        <div class="row mb-3">
                             <label for="Name">Name <span class="text-danger">*</span></label>
                             <div class="row">
                                 <div class="col-12 col-md-4">
                                     <input type="text" class="form-control" placeholder="First name" required>
 
                                 </div>
+
                                 <div class="col-12 col-md-4">
                                     <input type="text" class="form-control" placeholder="Middle name">
                                 </div>
+
+
                                 <div class="col-12 col-md-4">
                                     <input type="text" class="form-control" placeholder="Last name">
                                 </div>
-                            </div>
 
-                            <div class="row mb-3">
-                                <div class="col-12 col-md-4">
-                                    <label for="Phone No.">Phone No. <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" placeholder="Phone No." required>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <label for="Adhaar No.">Adhaar No. <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" placeholder="Adhaar NO." required>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <label for="Email-ID">Email-ID</label>
-                                    <input type="text" class="form-control" placeholder="Email-ID">
-                                </div>
                             </div>
+                        </div>
+                        <div class="col-12 col-md-8">
                             <div>
                                 <label for="Date Of Birth">Date Of Birth <span class="text-danger">*</span></label>
                                 <input type="date" name="Date Of Birth" required>
 
                             </div>
+                        </div>
 
-
-
+                        <div class="row mb-3">
                             <label for="Gender">Gender <span class="text-danger">*</span></label>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <input class="form-group-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios1" value="Male">
+                                    <label class="form-group-label" for="exampleRadios1">
+                                        Male
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <input class="form-group-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios2" value="Female">
+                                    <label class="form-group-label" for="exampleRadios2">
+                                        Female
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <input class="form-group-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios3" value="Other">
+                                    <label class="form-group-label" for="exampleRadios3">
+                                        Other
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="Category">Category <span class="text-danger">*</span></label>
+                            <select class="form-control">
+                                <option value="Choose">Choose</option>
+                                <option value="SC">SC</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="Father Name">Father Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Father Name">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="Mother Name">Mother Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Mother Name">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="Address">Address <span class="text-danger">*</span></label>
                             <div class="row mb-3">
                                 <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <input class="form-group-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios1" value="Male">
-                                        <label class="form-group-label" for="exampleRadios1">
-                                            Male
-                                        </label>
-                                    </div>
+                                    <input type="text" class="form-control" placeholder="House No." required>
                                 </div>
                                 <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <input class="form-group-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios2" value="Female">
-                                        <label class="form-group-label" for="exampleRadios2">
-                                            Female
-                                        </label>
-                                    </div>
+                                    <input type="text" class="form-control" placeholder="Vilage/city" required>
                                 </div>
                                 <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <input class="form-group-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios3" value="Other">
-                                        <label class="form-group-label" for="exampleRadios3">
-                                            Other
-                                        </label>
-                                    </div>
+                                    <input type="text" class="form-control" placeholder="District" required>
                                 </div>
                             </div>
                         </div>
 
-
-                        <label for="Address">Address <span class="text-danger">*</span></label>
                         <div class="row mb-3">
-                            <div class="col-12 col-md-4">
-                                <input type="text" class="form-control" placeholder="House No." required>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <input type="text" class="form-control" placeholder="Vilage/city" required>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <input type="text" class="form-control" placeholder="District" required>
-                            </div>
-                        </div>
-
-
-                        <div class="row mb-3">
-                            <div class="col-12 col-md-4">
-                                <label for="Occupation">Occupation <span class="text-danger">*</span></label>
-                                <select class="form-control">
-                                    <option value="Select">Select</option>
-                                    <option value="Farmer">Farmer</option>
-                                    <option value="Self employed/Own business">Self
-                                        employed/Own business</option>
-                                    <option value="Labour">Labour</option>
-                                    <option value="Student">Student</option>
-                                    <option value="Others">Others</option>
-
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <label for="Income">Income <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" placeholder="Income" required>
-                            </div>
-
-                            <div class="col-12 col-md-4">
-                                <label for="Category">Category <span class="text-danger">*</span></label>
-                                <select class="form-control">
-                                    <option value="Choose">Choose</option>
-                                    <option value="GEN">GEN</option>
-                                    <option value="OBC">OBC</option>
-                                    <option value="SC">SC</option>
-                                    <option value="ST">ST</option>
-                                    <option value="GEN-EWS">GEN-EWS</option>
-                                </select>
-
-                            </div>
-                        </div>
-
-
-                        <div class="row mb-3">
-                            <div class="col-12 col-md-4">
+                            <div class="col-12 col-md-8">
                                 <label for="State/Union Territory">State/Territory <span
                                         class="text-danger">*</span></label>
                                 <select class="form-control">
@@ -260,33 +242,39 @@
                                     <option value="Puducherry">Puducherry</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-md-4">
-                                <label for="Pincode">Pincode <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" placeholder="Pincode" required>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <label for="Pincode">Pincode <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Pincode" required>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="Mobile Number">Mobile Number <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Mobile Number">
+                        </div>
+                        <div class="form-group p-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    I agree all terms and conditions <span class="text-danger">*</span>
+                                </label>
+                            </div>
+                            <div class="container">
+                                <div class="col-md-12 text-center">
+                                    <button type="button" class="btn btn-primary">Register</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
-                <div class="form-group p-3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            I agree all terms and conditions <span class="text-danger">*</span>
-                        </label>
-                    </div>
-                    <div class="container">
-                        <div class="col-md-12 text-center">
-                            <button type="button" class="btn btn-primary">Register</button>
-                        </div>
-                    </div>
-                </div>
-                </form>
+
             </div>
+
+
+
         </div>
 
+        </form>
     </div>
 
     <!--Footer-->
@@ -318,8 +306,8 @@
                                 <h4 class="sf_title" style="color:rgb(176, 149, 13) ;">Mail-us</h4>
                                 <!-- <ul> -->
 
-                                    <li>Mail us at <br><i>gguonlinein@gmail.com </i><br>for further suggestions
-                                    </li>
+                                <li>Mail us at <br><i>gguonlinein@gmail.com </i><br>for further suggestions
+                                </li>
                                 <!-- </ul> -->
                             </div>
                         </div>
@@ -328,8 +316,8 @@
                                 <h4 class="sf_title" style="color:rgb(176, 149, 13) ;">Contact us</h4>
                                 <!-- <ul> -->
 
-                                    <li>University Help Lines</li>
-                                    <li><a href=""> 07314853391</a></li>
+                                <li>University Help Lines</li>
+                                <li><a href=""> 07314853391</a></li>
                                 <!-- </ul> -->
                             </div>
                         </div>
