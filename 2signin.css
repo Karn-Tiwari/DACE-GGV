@@ -63,6 +63,7 @@ header{
 
 } */
 .velcum{
+    
     background-color: rgb(128, 206, 209);
     color: #084e58;
     box-shadow: 5px;
@@ -117,8 +118,9 @@ header{
     border: 3px solid #021b1f;
 }
 .sin_up{
-    background-color: #0b7b8d;
+    background-color: #fb3;
     color: #021b1f;
+    height: 55px;
     border-radius: 5px;
     border: 2px solid #021b1f;
     margin:5px;
