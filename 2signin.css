@@ -72,23 +72,7 @@ header{
     /* flex-direction: column; */
 }
 
-/* .breadcrumb li{
-    display: inline-block;
-    line-height:40px;
-    text-align: center; */
-    
 
-/* .left{
-float: left;
-} */
-.right{
-float: right;
-background-color: #072e33;
-}
-.mid_header {
-padding: 2px;
-    color: black;
-}
 
 #welcome{
     font-family: 'Baloo Bhai 2', cursive;
